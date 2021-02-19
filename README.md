@@ -3,7 +3,7 @@
 <p>
   <h1 align="center">Analog-watch
 </h1>
-  <h2 align="center">Relógio analógico, feito com java script puro </h2>
+  <h2 align="center">Relógio analógico, feito com Java Script, Html e CSS.</h2>d
 </p>
 
 <p  align="center"> Abaixo a imagem que inspirou o design</p>
