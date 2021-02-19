@@ -34,6 +34,8 @@
   background-color: #000;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
 
 .maquina {
@@ -59,9 +61,49 @@
 
 .doze {
   margin-top: 5px;
-  background-color: rgb(255, 8, 0);
+  background-color: #ff0000;
 }
 
 .seis {
   margin-bottom: 8px;
 }
+
+
+.ponteiro {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+  transform-origin: bottom;
+
+}
+
+.hora {
+  width: 8px;
+  height: 25%;
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+/* hour hand style ends */
+/* minute hand style */
+
+.minuto {
+  width: 5px;
+  height: 33%;
+  background-color: #000;
+  border-radius: 10%;
+
+}
+
+/* minute hand style ends */
+/* second hand style */
+
+.segundo {
+  width: 2px;
+  height: 40%;
+  border-radius: 10%;
+  background-color: #ff0000;
+}
+
+
