@@ -2,12 +2,34 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/flex.css">
 </head>
 <body>
-  <div class="relogio"> <!-- circulo do relogio -->
-    <div class="ponteiro hora"></div> <!--ponteiro de hora -->
-    <div class="ponteiro minuto"></div> <!--ponteiro de minuto -->
-    <div class="ponteiro segundo"></div> <!--ponteiro de segundo -->
-  </div>
+  <div class="box">
+  <div class="pulseira"></div>
+    <div class="relogio flex column content-space"> <!-- circulo do relogio -->
+      <div class="numero doze">
+        <p>12</p>
+      </div>
+      <div class="flex row content-space posicionador">
+        <div class="numero nove">
+          <p>3</p>
+        </div>
+        <div class="numero tres">
+          <p>9</p>
+        </div>
+      </div>
+      <div class="numero seis">
+        <p>6</p>
+      </div>
+    </div>
+    </div>
+    <div class="box segundo">
+      <div class="maquina"> <!-- circulo do relogio -->
+        <div class="ponteiro hora"></div> <!--ponteiro de hora -->
+        <div class="ponteiro minuto"></div> <!--ponteiro de minuto -->
+        <div class="ponteiro segundo"></div> <!--ponteiro de segundo -->
+      </div>
+    </div>
 </body>
 </html>
