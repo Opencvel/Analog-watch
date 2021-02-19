@@ -9,15 +9,15 @@ body {
 
 .flex {
   display: flex;
- 
+ align-items:center
 }
 
 .content-space {
   justify-content: space-between;
 }
 
-.content-conter {
-  justify-content: space-evenly;
+.content-center {
+  justify-content: center;
 }
 
 .row {
